@@ -78,6 +78,33 @@ and without it Java wouldn't know where the declaration stops.
 19. public Book(String title, double price)
     number of parameters: 2  types: String and double
     
-20. 
+20. Do you think the values of the constructor’s parameters will need to be stored somewhere persistent?
+    : Yes
+    Can you guess what types some of the Book class’s fields might be, from the parameters in its constructor?
+    : Yes
+    Can we know anything for sure about the names of its fields? 
+    : Yes
     
-                   
+21. public Pet(String petsName)
+    {   
+        name = petsName;
+    }
+    
+22. public Date(int day, int month, int year)
+
+23. 1- Method names are different.
+    2- Return satements are different.
+    
+24. What is the new balance?
+
+25. The name of an accessor method can be different than the name of the field associated with.
+
+26. Done
+
+27. It says "missing return statement"
+
+28. getPrice is type "int" and printTicket is type "void".
+
+29. No they do not have return statements, because type "void" can't return any value.
+
+30. 
