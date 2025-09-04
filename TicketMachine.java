@@ -55,10 +55,12 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
+    
     public int getTotal()
     {   
         return total;
     }
+    
     /**
      * Print a ticket.
      * Update the total collected and
@@ -70,7 +72,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.println("# price cents.");
         System.out.println("##################");
         System.out.println();
 
@@ -79,4 +81,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
+    }
+    public void showPrice() 
+    {  
+        System.out.println("# The price of a ticket is xyz cents.");
+    } 
 }

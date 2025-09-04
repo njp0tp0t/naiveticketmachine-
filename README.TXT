@@ -99,7 +99,10 @@ and without it Java wouldn't know where the declaration stops.
 
 25. The name of an accessor method can be different than the name of the field associated with.
 
-26. Done
+26. public int getTotal()
+    {   
+        return total;
+    }
 
 27. It says "missing return statement"
 
@@ -139,4 +142,23 @@ and without it Java wouldn't know where the declaration stops.
         age = currentAge;
     }
     
-35. 
+35. public void makeAlive()
+    {
+        isAlive = true;
+    }
+    
+36. In the inspector the price value didn't change.
+    It stays at 0.
+    
+37. "My cat has green eyes."
+
+38. public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
+    }
+    
+39. The word "price" will be pinted instead of the actual price.
+
+40. The sentence "price cents" will be printed.
+
+41. 
