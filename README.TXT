@@ -107,4 +107,36 @@ and without it Java wouldn't know where the declaration stops.
 
 29. No they do not have return statements, because type "void" can't return any value.
 
-30. 
+30. getBalance = 0
+    inserted 2
+    new balance = 2
+
+31. /**
+    * Increase score by the given number of points.
+    */
+    public void increaseScore(int points)
+    {
+        score = score + points;
+          // TODO: Increase score by the value in points.
+    }
+    
+32. Yes, the addCredits method is a mutuator because it modifies the state of the object Student.
+    credits before adding: 0
+    credits after adding 67 credits: 67
+    
+33. /**
+    * Reduce price by the given amount.
+    */
+
+    public void discount(int amount)
+    {
+        price = price - amount;
+        // TODO: Subtract amount from price.
+    }
+    
+34. public void setAge(int currentAge)
+    {
+        age = currentAge;
+    }
+    
+35. 
