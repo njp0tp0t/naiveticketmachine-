@@ -161,4 +161,33 @@ and without it Java wouldn't know where the declaration stops.
 
 40. The sentence "price cents" will be printed.
 
-41. 
+41. public void showPrice() 
+    {  
+        System.out.println("# The price of a ticket is " +  price  + " cents.");
+    } 
+    
+42. Since the two machines were created with different prices, they will show different outputs.
+
+43. Yes, it does print the same output as the statement is has replaced.
+    %d gets replaced by the value of price and %n moves the cursor to the next line.
+    
+44. Can't no longer enter a price, it is now fixed at 1000.
+
+45. constructor 1: public TicketMachine(int cost)
+                   {
+                       price = cost;
+                       balance = 0;
+                       total = 0;
+                   }
+    
+    constructor 2: public TicketMachine()
+                   {
+                       price = 67;
+                   }
+                   
+46. public void empty()
+    {
+       total = 0;
+    }
+    No, it does not need any parameters and it is a mutator since it changes the total back to 0.
+    

@@ -30,6 +30,11 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+    public TicketMachine()
+    {
+        price = 67;
+    }
 
     /**
      * Return the price of a ticket.
@@ -72,7 +77,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# price cents.");
+        System.out.println("#" + price + " cents.");
         System.out.println("##################");
         System.out.println();
 
@@ -88,6 +93,11 @@ public class TicketMachine
     }
     public void showPrice() 
     {  
-        System.out.println("# The price of a ticket is xyz cents.");
-    } 
+        System.out.println("# The price of a ticket is " +  price  + " cents.");
+    }
+    
+    public void empty()
+    {
+       total = 0;
+    }
 }
